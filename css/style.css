@@ -1,0 +1,111 @@
+
+body{
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+
+.ba-chess {
+	position: absolute;
+	margin: auto;
+	width: 80vmin;
+	height: 80vmin;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border: 30px solid #838B83;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+[class*="quoter"] {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+}
+.ba-quoter1 {
+	top: 0;
+	left: 0;
+}
+.ba-quoter2 {
+	top: 0;
+	right: 0;
+}
+.ba-quoter3 {
+	bottom: 0;
+	left: 0;
+}
+.ba-quoter4 {
+	bottom: 0;
+	right: 0;
+}
+.ba-paint div:first-child,
+.ba-paint div:last-child {
+	background: #65444C;
+}
+.ba-paint> div {
+	background: #FFFFF0;
+}
+.ba-row div:after{
+	content: "";
+	display: block;
+	background: #eb4a39;
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 3px 0 0 #931220;
+}
